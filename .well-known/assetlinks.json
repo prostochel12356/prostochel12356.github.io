@@ -1,8 +1,18 @@
-[{
-      "relation": ["delegate_permission/common.handle_all_urls"],
-      "target": {
-        "namespace": "android_app",
-        "package_name": "io.github.prostochel12356.fruit",
-        "sha256_cert_fingerprints": ["B7:0E:67:44:81:29:4B:61:E9:78:03:31:A4:34:FA:77:75:84:C9:C2:47:90:7F:8F:08:03:24:6A:3E:4F:B0:20"]
-      }
-    }]
+[
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "io.github.prostochel12356.twa",
+      "sha256_cert_fingerprints": ["0D:D6:A1:00:C8:2A:18:D7:24:1C:CF:3D:21:1C:A8:CA:29:EB:51:81:A4:CD:9C:A7:96:FF:18:74:41:6C:21:3D"]
+    }
+  },
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "io.github.prostochel12356.fruit",
+      "sha256_cert_fingerprints": ["B7:0E:67:44:81:29:4B:61:E9:78:03:31:A4:34:FA:77:75:84:C9:C2:47:90:7F:8F:08:03:24:6A:3E:4F:B0:20"]
+    }
+  }
+]
